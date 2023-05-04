@@ -14,5 +14,5 @@ test('popping an element from a non-empty stack returns the top element', () => 
     stack.push('hello');
     stack.push('world');
     const topElement = stack.pop();
-    expect(topElement).toBe('hello'); // fail
+    expect(topElement).toBe('world'); // fail
 });
